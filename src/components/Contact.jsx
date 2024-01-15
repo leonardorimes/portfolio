@@ -1,5 +1,5 @@
 import PrimaryTitle from "./PrimaryTitle";
-import SecondTitle from "./secondTitle";
+import SecondTitle from "./SecondTitle";
 
 import PrimaryButton from "./PrimaryButton";
 import emailjs from "emailjs-com";

@@ -1,4 +1,4 @@
-import SecondTitle from "./secondTitle";
+import SecondTitle from "./SecondTitle";
 
 import styles from "./Skills.module.css";
 
