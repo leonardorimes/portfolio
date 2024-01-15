@@ -1,0 +1,30 @@
+.home {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  animation: blur 1s ease-in-out;
+}
+
+.social {
+  flex-direction: column;
+}
+
+@keyframes blur {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .home {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}

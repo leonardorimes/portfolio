@@ -1,0 +1,93 @@
+.contact {
+  margin-top: 200px;
+  animation: blur 1s ease-in-out;
+  animation-timeline: view();
+  animation-range: cover 0% cover 50%;
+}
+
+.contact h2 {
+  margin-bottom: 30px;
+}
+
+.contact h1 {
+  margin-bottom: 15px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  display: flex;
+  gap: 54px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formControl input {
+  height: 50px;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.formControl textarea {
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+}
+
+.formControl input::placeholder {
+  margin-left: 20px;
+}
+
+.form button {
+  background-color: #ffb800;
+  padding: 15px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  align-self: flex-end;
+  text-transform: uppercase;
+}
+
+@keyframes blur {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact h2 {
+    text-align: center;
+  }
+  .contact {
+    padding: 20px;
+  }
+  .content {
+    flex-direction: column;
+  }
+}

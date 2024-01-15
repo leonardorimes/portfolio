@@ -1,0 +1,36 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.avatar span h1 {
+  font-family: "Permanent Marker", cursive;
+  color: #ffb800;
+}
+
+.image {
+  max-width: 25rem;
+  background: radial-gradient(
+    circle at 3% 4.8%,
+    rgb(212, 180, 23) 0%,
+    rgb(255, 255, 255) 86.6%
+  );
+  border-radius: 50%;
+}
+@media (max-width: 800px) {
+  .avatar {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .image {
+    max-width: 18rem;
+  }
+
+  .avatar span {
+    text-align: center;
+  }
+}

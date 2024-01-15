@@ -1,0 +1,114 @@
+.portfolio {
+  margin-top: 200px;
+  animation: toleft 2s ease-out;
+  animation-timeline: scroll();
+  animation-range: cover 0% cover 50%;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.album {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 42px;
+  position: relative;
+}
+
+.box {
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+  position: relative;
+  max-width: 90%;
+}
+
+.album img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.box .imgBox {
+  width: 100%;
+}
+
+.box:hover .imgBox img {
+  opacity: 0;
+}
+
+.box .content {
+  height: 60px;
+  background: #000;
+  transition: 0.2ms;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.box:hover .content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.box .content h3 {
+  color: white;
+}
+
+.box:hover .content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.box:hover .content p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+@keyframes toleft {
+  from {
+    opacity: 0;
+    translate: 200vw 0;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .portfolio {
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: none;
+  }
+
+  .content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+
+  .box:hover .content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+
+  .box:hover .content p {
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+    color: #fff;
+  }
+}
