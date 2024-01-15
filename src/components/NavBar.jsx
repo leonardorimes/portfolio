@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 
-import styles from "./Navbar.module.css";
+import styles from "./NavBar.module.css";
 import BurguerMenu from "./BurguerMenu";
 
 const NavBar = () => {
