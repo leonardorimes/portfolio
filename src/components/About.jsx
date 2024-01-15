@@ -1,7 +1,7 @@
 import styles from "./About.module.css";
 
 import Pic from "../assets/pic_2.jpg";
-import SecondTitle from "./secondTitle";
+import SecondTitle from "./SecondTitle";
 import PrimaryTitle from "./PrimaryTitle";
 import Skills from "./Skills";
 
