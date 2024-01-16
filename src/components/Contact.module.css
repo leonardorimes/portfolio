@@ -94,4 +94,8 @@
   .content {
     flex-direction: column;
   }
+
+  .formControl input {
+    width: 80%;
+  }
 }
