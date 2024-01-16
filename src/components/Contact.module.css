@@ -95,4 +95,8 @@
   .content {
     flex-direction: column;
   }
+
+  .form button {
+    align-self: center;
+  }
 }
