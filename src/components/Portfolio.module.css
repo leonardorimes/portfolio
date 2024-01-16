@@ -105,6 +105,10 @@
     font-size: 10px;
   }
 
+  .album {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .box:hover .content p {
     margin: 0;
     padding: 0;
