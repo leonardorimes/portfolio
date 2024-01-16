@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  gap: 50px;
 }
 
 .avatar span h1 {
@@ -11,7 +11,7 @@
 }
 
 .image {
-  max-width: 25rem;
+  max-width: 30rem;
   background: radial-gradient(
     circle at 3% 4.8%,
     rgb(212, 180, 23) 0%,
@@ -27,7 +27,7 @@
   }
 
   .image {
-    max-width: 18rem;
+    max-width: 25rem;
   }
 
   .avatar span {
