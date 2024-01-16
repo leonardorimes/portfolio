@@ -90,6 +90,8 @@
 
   .form {
     margin-left: 30px;
+    justify-content: center;
+    align-items: center;
   }
   .content {
     flex-direction: column;
