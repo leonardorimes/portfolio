@@ -23,6 +23,7 @@
   gap: 54px;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .form {
@@ -90,8 +91,7 @@
 
   .form {
     margin-left: 30px;
-    justify-content: center;
-    align-items: center;
+    margin: 50px;
   }
   .content {
     flex-direction: column;
