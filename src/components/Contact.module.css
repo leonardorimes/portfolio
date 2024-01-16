@@ -102,4 +102,8 @@
   .form button {
     align-self: center;
   }
+
+  .formControl label {
+    align-self: flex-start;
+  }
 }
