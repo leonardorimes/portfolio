@@ -2,11 +2,9 @@ import styles from "./PrimaryButton.module.css";
 
 const PrimaryButton = ({ url, text, ...props }) => {
   return (
-    <div className={styles.button}>
-      <a href={url} {...props}>
-        {text}
-      </a>
-    </div>
+    <a href={url} {...props} className={styles.button}>
+      {text}
+    </a>
   );
 };
 
