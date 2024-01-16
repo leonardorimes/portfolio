@@ -22,7 +22,7 @@ const projects = [
   },
   {
     name: "Poke Search",
-    url: "https://imgbox.com/hlMQa2eP",
+    url: "https://images2.imgbox.com/dc/72/hlMQa2eP_o.png",
     description:
       "O Pokesearch é uma aplicação React que permite a busca e visualização de informações sobre Pokémons, utilizando a PokeAPI para obter dados completos sobre cada Pokémon, incluindo imagens, IDs, tipos, habilidades e estatísticas.",
     site_url: "https://pokesearch2023.netlify.app/",
