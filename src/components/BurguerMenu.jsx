@@ -41,10 +41,24 @@ const BurguerMenu = () => {
             : styles["menu"] + " " + styles["hidden"]
         }
       >
-        <Link to="hero" spy={true} smooth={true} offset={50} duration={1200}>
+        <Link
+          to="hero"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={1200}
+          onClick={updateMenu}
+        >
           Home
         </Link>
-        <Link to="about" spy={true} smooth={true} offset={50} duration={1200}>
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={1200}
+          onClick={updateMenu}
+        >
           Sobre
         </Link>
         <Link
@@ -53,10 +67,18 @@ const BurguerMenu = () => {
           smooth={true}
           offset={50}
           duration={1200}
+          onClick={updateMenu}
         >
           Portfolio
         </Link>
-        <Link to="contact" spy={true} smooth={true} offset={50} duration={1200}>
+        <Link
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={1200}
+          onClick={updateMenu}
+        >
           Contato{" "}
         </Link>
       </div>
