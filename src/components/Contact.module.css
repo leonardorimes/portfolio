@@ -87,6 +87,10 @@
   .contact {
     padding: 20px;
   }
+
+  .form {
+    margin-left: 10px;
+  }
   .content {
     flex-direction: column;
   }
