@@ -41,11 +41,6 @@ const Contact = () => {
             de alta qualidade. Vamos trabalhar juntos para dar vida às suas
             ideias!
           </p>
-          <PrimaryButton
-            text="mensagem"
-            url="https://wa.me/5522992724146"
-            target="_blank"
-          />
         </div>
 
         <div>

@@ -22,7 +22,6 @@
   display: flex;
   gap: 54px;
   justify-content: center;
-  align-items: center;
 }
 
 .form {
@@ -101,9 +100,5 @@
 
   .form button {
     align-self: center;
-  }
-
-  .formControl label {
-    align-self: flex-start;
   }
 }
