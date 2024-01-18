@@ -67,6 +67,7 @@
   border: none;
   align-self: flex-end;
   text-transform: uppercase;
+  color: black;
 }
 
 @keyframes blur {

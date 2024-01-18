@@ -46,7 +46,7 @@ const Contact = () => {
         <div>
           <form onSubmit={enviarEmail} className={styles.form}>
             <div className={styles.formControl}>
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Nome</label>
               <input
                 type="text"
                 name="name"
