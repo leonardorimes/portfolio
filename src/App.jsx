@@ -5,6 +5,9 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 
+import "./App.css";
+import MySkylls from "./components/mySkylls";
+
 const projects = [
   {
     name: "React food",
@@ -36,14 +39,13 @@ const projects = [
   },
 ];
 
-console.log(projects[0].url);
-
 function App() {
   return (
     <div>
       <Header />
       <Home />
       <About />
+      <MySkylls />
       <Portfolio projects={projects} />
       <Contact />
       <BaseBoard />

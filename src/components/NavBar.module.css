@@ -11,8 +11,12 @@
   height: 5em;
 }
 
+.nav a {
+  transition: 0.5s;
+}
+
 .nav a:hover {
-  color: #ffb800;
+  color: #8123d0;
   text-decoration: underline;
   font-weight: bold;
 }

@@ -9,11 +9,18 @@ body {
   max-width: 1000px;
   margin: 2rem auto;
   font-size: 16px;
-  background-color: #f5eded;
+  background-image: linear-gradient(
+    to right top,
+    #2c1b48,
+    #2a1b45,
+    #291c43,
+    #271c40,
+    #261c3d
+  );
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
 }

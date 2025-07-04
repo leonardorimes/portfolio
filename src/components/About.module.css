@@ -7,6 +7,7 @@
   animation: toright 2s ease-out;
   animation-timeline: view();
   animation-range: cover 0% cover 50%;
+  color: white;
 }
 
 .about img {
@@ -16,7 +17,7 @@
 
 .about::after {
   content: "";
-  border: 1px solid black;
+  border: 1px solid rgb(198, 14, 223);
   position: absolute;
   width: 70px;
   top: 19px;

@@ -7,18 +7,28 @@
 
 .avatar span h1 {
   font-family: "Permanent Marker", cursive;
-  color: #ffb800;
+  color: rgb(198, 14, 223);
+}
+
+.avatar p {
+  color: #fff;
 }
 
 .image {
   max-width: 30rem;
   background: radial-gradient(
     circle at 3% 4.8%,
-    rgb(212, 180, 23) 0%,
-    rgb(255, 255, 255) 86.6%
+    rgb(255, 255, 255) 86.6%,
+    rgb(198, 14, 223) 0%
   );
   border-radius: 50%;
+  border: 5px solid rgb(198, 14, 223);
+
+  /* Neon effect */
+  box-shadow: 0 0 5px rgb(198, 14, 223), 0 0 20px rgb(198, 14, 223),
+    0 0 20px rgb(198, 14, 223), 0 0 20px rgb(198, 14, 223);
 }
+
 @media (max-width: 800px) {
   .avatar {
     flex-direction: column;

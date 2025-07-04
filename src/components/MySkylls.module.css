@@ -1,0 +1,44 @@
+.MySkylls {
+  margin-top: 50px;
+
+  /* align-items: center;
+  justify-content: center; */
+
+  animation: blur 1s ease-in-out;
+}
+
+.MySkylls h1 {
+  text-align: center;
+  padding: 2px;
+}
+
+.MySkylls img {
+  margin: 8px;
+  width: 50%;
+  box-shadow: 0 0 5px rgb(198, 14, 223), 0 0 20px rgb(198, 14, 223),
+    0 0 20px rgb(198, 14, 223), 0 0 20px rgb(198, 14, 223);
+}
+
+@keyframes blur {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .home {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .MySkylls img {
+    margin: 8px;
+    width: 80%;
+  }
+}
