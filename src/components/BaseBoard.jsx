@@ -1,5 +1,5 @@
 import styles from "./BaseBoard.module.css";
-import NavBar from "./NavBar";
+
 import PrimaryTitle from "./PrimaryTitle";
 
 const BaseBoard = () => {
