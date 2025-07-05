@@ -3,6 +3,7 @@
   animation: blur 1s ease-in-out;
   animation-timeline: view();
   animation-range: cover 0% cover 50%;
+  color: white;
 }
 
 .contact h2 {
@@ -57,7 +58,7 @@
 }
 
 .form button {
-  background-color: #ffb800;
+  background-color: rgb(198, 14, 223);
   padding: 15px;
   border-radius: 10px;
   width: 30%;
@@ -67,7 +68,7 @@
   border: none;
   align-self: flex-end;
   text-transform: uppercase;
-  color: black;
+  color: #fff;
 }
 
 @keyframes blur {

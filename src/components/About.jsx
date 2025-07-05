@@ -24,8 +24,6 @@ const About = () => {
             inovadoras.
           </p>
         </div>
-
-        <Skills />
       </div>
     </div>
   );

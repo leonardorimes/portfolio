@@ -1,12 +1,11 @@
-import SecondTitle from "./SecondTitle";
-
 import styles from "./Portfolio.module.css";
 import PrimaryButton from "./PrimaryButton";
+import PrimaryTitle from "./PrimaryTitle";
 
 const Portfolio = ({ projects }) => {
   return (
     <div className={styles.portfolio} id="portfolio">
-      <SecondTitle text="Portfolio" />
+      <PrimaryTitle text="Portfolio" />
       <div className={styles.album}>
         {projects.map((project) => (
           <div className={styles.box} key={project.name}>

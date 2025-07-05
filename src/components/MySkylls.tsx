@@ -18,6 +18,7 @@ function MySkylls() {
   return (
     <div className={styles.MySkylls}>
       {" "}
+      <div className="habilidades-h1"></div>
       <h1>Habilidades</h1>
       <Swiper
         modules={[Autoplay]}

@@ -6,8 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  max-width: 1000px;
-  margin: 2rem auto;
+
   font-size: 16px;
   background-image: linear-gradient(
     to right top,
@@ -17,6 +16,11 @@ body {
     #271c40,
     #261c3d
   );
+}
+
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
 }
 
 a {

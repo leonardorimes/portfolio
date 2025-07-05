@@ -41,15 +41,17 @@ const projects = [
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Home />
-      <About />
-      <MySkylls />
-      <Portfolio projects={projects} />
-      <Contact />
+    <>
+      <div className="container">
+        <Header />
+        <Home />
+        <About />
+        <MySkylls />
+        <Portfolio projects={projects} />
+        <Contact />
+      </div>
       <BaseBoard />
-    </div>
+    </>
   );
 }
 
