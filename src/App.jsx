@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 
 import "./App.css";
-import MySkylls from "./components/mySkylls";
+import MySkylls from "./components/MySkylls";
 
 const projects = [
   {
